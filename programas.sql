@@ -111,5 +111,6 @@ CREATE TABLE ASIGNATURA( -- Tabla para almacenar las asignaturas de las especial
 );
 CREATE TABLE PATITO(
 	PatitoID INT PRIMARY KEY AUTO_INCREMENT,
-	vchALGO VARCHAR(100)
+	vchALGO VARCHAR(100),
+	vchAlgoQuePusoLaz VARCHAR(100) NOT NULL
 );
