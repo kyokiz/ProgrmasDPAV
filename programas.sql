@@ -109,3 +109,7 @@ CREATE TABLE ASIGNATURA( -- Tabla para almacenar las asignaturas de las especial
 	UsuarioID INT NOT NULL, -- Permite auditar el usuario que hizo la última modificación
     FOREIGN KEY (UsuarioID) REFERENCES USUARIOS(UsuarioID) -- Referencia del usuario auditado con respecto a la tabla de usuarios
 );
+CREATE TABLE PATITO(
+	PatitoID INT PRIMARY KEY AUTO_INCREMENT,
+	vchALGO VARCHAR(100)
+);
